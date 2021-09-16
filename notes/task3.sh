@@ -4,7 +4,7 @@
 printf "Enter your name:\n"
 read name
 #test if empty, then exit 
-if [[-z $name]]
+if [[ -z $name ]]
 then
     #>&2 for stderr
     echo "No name entered" >&2
