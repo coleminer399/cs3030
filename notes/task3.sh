@@ -11,9 +11,9 @@ then
     exit 1
 
 #else print name and exit 0
-printf "Hello %s\n" $name
-printf "Let's play a game. Enter a nummber not less than 10: and not greater
-than 20"
+    printf "Hello %s\n" $name
+    printf "Let's play a game. Enter a nummber not less than 10: and not greater than 20"
+    read number
 fi
 #test if >0 then exit
 #no need for $

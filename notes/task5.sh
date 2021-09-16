@@ -1,12 +1,12 @@
 #!/usr/bin/env bash 
-uguess=3
+guess=3
 while [[ $guess -le 3 ]]
 do
     printf "Enter the file name you are looking for in %s\n" "$PWD"
   read infile
     if [[ -e $infile ]]
     then
-        printf "
+        printf ""
         break
 
 
